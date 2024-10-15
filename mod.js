@@ -3,4 +3,4 @@ function alertwindow() {
     console.log('Alert opened')
 }
 
-module.exports = { alertwindow };
+export default alertwindow();
