@@ -2,8 +2,6 @@ let namebox = document.getElementById('namebox');
 let username = document.getElementById('namebox').textContent;
 let response = document.getElementById('responsetext')
 
-const { alertwindow } = require("./mod.js");
-
 function submitname() {
     let name = namebox.value
     console.log('"' + name + '" was submitted.')
