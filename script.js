@@ -1,7 +1,8 @@
 let namebox = document.getElementById('namebox');
 let username = document.getElementById('namebox').textContent;
 let response = document.getElementById('responsetext')
-let hiddenpage = document.getElementById('jameshating');
+
+const { alertwindow } = require("./mod.js");
 
 function submitname() {
     let name = namebox.value
@@ -10,6 +11,7 @@ function submitname() {
         response.textContent = 'Your name is James, therefore we cannot grant you access to this website.';
         console.log('Name was James, denying access to page.');
         document.getElementById('jameshating').style.visibility = 'hidden';
+        alertwindow();
     } else {
         response.textContent = 'Your name is not James, therefore we will now grant you access to this website.';
         console.log('Name was NOT James');
@@ -18,4 +20,3 @@ function submitname() {
     }
 
 }
-
