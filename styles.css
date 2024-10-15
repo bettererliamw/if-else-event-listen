@@ -1,0 +1,29 @@
+body {
+    background-color: #2e394a;
+}
+
+p, label, pre {
+    color: white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+text-align: center;
+color: white;
+font-size: 200%;
+}
+
+#namebox {
+    margin-left: 41%;
+}
+
+label {
+    margin-left: 43%;
+}
+
+#jameshating {
+    background-color: #291619;
+    margin: 1%;
+    visibility: hidden;
+}
